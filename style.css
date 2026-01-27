@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form-label {
+    font-weight: 600;
+}
+
+.card {
+    border-radius: 10px;
+}

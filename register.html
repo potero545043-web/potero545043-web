@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bg-light">
+    
+ <div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="card shadow p-4" style="width: 100%; max-width: 500px;">
+        
+        <h3 class="text-center mb-4">Create Account</h3>
+
+        <form>
+
+            <!-- Full Name -->
+            <div class="mb-3">
+                <label class="form-label">Full Name</label>
+                <input type="text" class="form-control" placeholder="Juan Dela Cruz">
+            </div>
+
+            <!-- Email -->
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" placeholder="example@email.com">
+            </div>
+
+            <!-- Password -->
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input type="password" class="form-control">
+            </div>
+
+            <!-- Confirm Password -->
+            <div class="mb-3">
+                <label class="form-label">Confirm Password</label>
+                <input type="password" class="form-control">
+            </div>
+
+            <!-- Age -->
+            <div class="mb-3">
+                <label class="form-label">Age</label>
+                <input type="number" class="form-control" min="1" max="120">
+            </div>
+
+            <!-- Country -->
+            <div class="mb-3">
+                <label class="form-label">Country</label>
+                <select class="form-select">
+                    <option selected disabled>Select Country</option>
+                    <option>Philippines</option>
+                    <option>USA</option>
+                    <option>Japan</option>
+                    <option>Canada</option>
+                </select>
+            </div>
+
+            <!-- Gender -->
+            <div class="mb-3">
+                <label class="form-label d-block">Gender</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gender">
+                    <label class="form-check-label">Male</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gender">
+                    <label class="form-check-label">Female</label>
+                </div>
+            </div>
+
+            <!-- Terms -->
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label">
+                    I agree to the Terms & Conditions
+                </label>
+            </div>
+
+            <!-- Button -->
+            <button type="submit" class="btn btn-primary w-100">
+                Register
+            </button>
+
+        </form>
+
+        <p class="text-center mt-3">
+            Already have an account?
+            <a href="login.html">Login here</a>
+        </p>
+
+    </div>
+</div>
+
+</body>
+</html>
